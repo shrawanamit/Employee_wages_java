@@ -39,10 +39,10 @@ public class EmpWageUc1 {
 		
 		public static void main(String arg[]){
 			EmpWageUc1 dMart = new EmpWageUc1("dMart",20,20,100);
-//			EmpWageUc1 bigBaset = new EmpWageUc1("bigBaset",30,30,107);
-//			EmpWageUc1 vishal = new EmpWageUc1("vishal",25,26,120);
+			EmpWageUc1 bigBaset = new EmpWageUc1("bigBaset",30,30,107);
+			EmpWageUc1 vishal = new EmpWageUc1("vishal",25,26,120);
 			System.out.println("total employee wage for company " + dMart.company + " is: "+ dMart.computeEmoloyeeWage());
-//			System.out.println("total employee wage for company " + bigBaset.company + " is: "+ bigBaset.computeEmoloyeeWage());
-//			System.out.println("total employee wage for company " + vishal.company + " is: "+ vishal.computeEmoloyeeWage());
+			System.out.println("total employee wage for company " + bigBaset.company + " is: "+ bigBaset.computeEmoloyeeWage());
+			System.out.println("total employee wage for company " + vishal.company + " is: "+ vishal.computeEmoloyeeWage());
     }
 }
