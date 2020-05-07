@@ -1,12 +1,12 @@
 public class EmpWageUc1 {
-    
+
 	 private static final int is_full_time=2;
     private static final int is_part_time=1;
 
-    private final String company;
-    private final int emp_rate_per_hours;
-    private final int no_of_working_days;
-    private final int max_hours_per_month;
+    public final String company;
+    public final int emp_rate_per_hours;
+    public final int no_of_working_days;
+    public final int max_hours_per_month;
 
     public EmpWageUc1(String company, int emp_rate_per_hours, int no_of_working_days, int max_hours_per_month) {
         this.company = company;
@@ -36,8 +36,8 @@ public class EmpWageUc1 {
 		}
 			return  emp_rate_per_hours * total_Emp_hours;
 	}
-		
 	public static void main(String arg[]){
+
 		EmpWageUc1 dMart = new EmpWageUc1("dMart",20,20,100);
 		EmpWageUc1 bigBaset = new EmpWageUc1("bigBaset",30,30,107);
 		EmpWageUc1 vishal = new EmpWageUc1("vishal",25,26,120);
